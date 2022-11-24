@@ -1,0 +1,15 @@
+#include <iostream>
+using namespace std;
+
+int mas(int number){
+    int b[10] = {4, 6, 8, 10, 15, 28, 34, 56, 67, 80};
+    int ptr = b[number];
+    return ptr;
+}
+
+int main(){
+    int number;
+    cin >> number;
+    cout << "Your number is " << mas(number) << endl;
+    return 0;
+}
