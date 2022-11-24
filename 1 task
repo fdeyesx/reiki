@@ -1,0 +1,12 @@
+#include <iostream>
+using namespace std;
+
+int main(){
+    int b[10] = {4, 6, 8, 10, 15, 28, 34, 56, 67, 80};
+    cout << "Enter the number (0-9) to see some number. ";
+    int k;
+    cin >> k;
+    cout << "Your number is " << b[k] << endl;
+
+    return 0;
+}
