@@ -1,0 +1,23 @@
+#include <iostream>
+using namespace std;
+
+int mas(int number){
+    int b[10] = {4, 6, 8, 10, 15, 28, 34, 56, 67, 80};
+    int ptr = b[number];
+    return ptr;
+}
+
+int mastwo(int numbertwo){
+    int b[10] = {4, 6, 8, 10, 15, 28, 34, 56, 67, 80};
+    int rtr = b[numbertwo];
+    return rtr;
+}
+
+int main(){
+    int number;
+    cin >> number;
+    int numbertwo;
+    cin >> numbertwo;
+    cout << "Your answer is " << mas(number) + mas(numbertwo) << endl;
+    return 0;
+}
