@@ -1,0 +1,27 @@
+#include <iostream>
+using namespace std;
+
+int mas(){
+    int b[10] = {4, 6, 8, 10, 15, 28, 34, 56, 67, 80};
+    int itg = 0;
+    for (int i = 0; i <= 10; i += 3) 
+    {
+      itg += b[i];
+    }
+    return itg;
+}
+
+int mastwo(){
+    int c[10] = {5, 7, 10, 13, 17, 24, 37, 59, 63, 85};
+    int itr = 0;
+    for (int i = 0; i <= 10; i += 3) 
+    {
+      itr += c[i];
+    }
+    return itr;
+}
+
+int main(){
+    cout << "Your answer is " << mas() + mastwo() << endl;
+    return 0;
+}
